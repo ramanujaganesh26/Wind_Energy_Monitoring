@@ -1,6 +1,16 @@
 # New Windmill Unit Software - Wind Energy Monitoring Dashboard
 
+[![Release](https://img.shields.io/github/v/release/ramanujaganesh26/Wind_Energy_Monitoring?color=orange&label=Release)](https://github.com/ramanujaganesh26/Wind_Energy_Monitoring/releases/tag/v1.0.0)
+[![License](https://img.shields.io/github/license/ramanujaganesh26/Wind_Energy_Monitoring?color=blue)](LICENSE)
+
 A full-screen industrial HMI (Human-Machine Interface) desktop dashboard built using **Qt 6.8**, **C++**, and **Qt Quick / QML**. Designed for real-time wind turbine telemetry and power generation analytics, featuring dark glassmorphism, dynamic visual gauges, animated spectrum bars, and interactive HUD controls over an atmospheric turbine background photograph.
+
+---
+
+## 📦 Releases
+
+- **[Release v1.0.0](https://github.com/ramanujaganesh26/Wind_Energy_Monitoring/releases/tag/v1.0.0)** — Initial Release of New Windmill Unit Software with full-screen edge-to-edge QML dashboard, live telemetry, and custom animated gauges.
+- **[All Releases](https://github.com/ramanujaganesh26/Wind_Energy_Monitoring/releases)**
 
 ---
 
