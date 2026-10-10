@@ -1,33 +1,40 @@
 <div align="center">
 
-# 🌬️ New Windmill Unit Software
+# New Windmill Unit Software
 ### *Next-Generation Industrial Wind Energy HMI & Telemetry Dashboard*
 
 [![Release](https://img.shields.io/github/v/release/ramanujaganesh26/Wind_Energy_Monitoring?color=ff6b2b&label=Latest%20Release)](https://github.com/ramanujaganesh26/Wind_Energy_Monitoring/releases/tag/v1.0.0)
 [![Qt Version](https://img.shields.io/badge/Qt-6.8.3-41CD52?logo=qt)](https://www.qt.io/)
 [![Language](https://img.shields.io/badge/C%2B%2B-20-00599C?logo=c%2B%2B)](https://isocpp.org/)
 [![QML](https://img.shields.io/badge/UI-Qt%20Quick%20%2F%20QML-00d0d0)](https://doc.qt.io/qt-6/qtquick-index.html)
-[![License](https://img.shields.io/github/license/ramanujaganesh26/Wind_Energy_Monitoring?color=blue)](LICENSE)
 
 ---
 
 </div>
 
-## 📌 Executive Summary
+## Application Interface
+
+![New Windmill Unit Software Dashboard Preview](assets/IMG/software_preview.png)
+
+> **Demonstration Video**: [Watch System Demonstration Clip](assets/IMG/Software_gif.mp4)
+
+---
+
+## Executive Summary
 
 **New Windmill Unit Software** is a full-screen, high-performance industrial Human-Machine Interface (HMI) desktop monitoring system developed using **Qt 6.8**, **C++20**, and **Qt Quick / QML**. Engineered for real-time wind turbine telemetry tracking and power generation analytics, the system features dark glassmorphism, animated visual indicators, high-DPI canvas telemetry gauges, and interactive HUD controls layered over an atmospheric wind farm background.
 
 ---
 
-## 📦 Download & Release Package
+## Download & Release Package
 
-- 🚀 **[Latest Release v1.0.0](https://github.com/ramanujaganesh26/Wind_Energy_Monitoring/releases/tag/v1.0.0)**
-- 📁 **[Download Source Code Archive (.zip)](https://github.com/ramanujaganesh26/Wind_Energy_Monitoring/releases/download/v1.0.0/New_Windmill_Unit_Software_v1.0.0_SourceCode.zip)**
-- 🏷️ **[View All Tags](https://github.com/ramanujaganesh26/Wind_Energy_Monitoring/tags)**
+- **[Latest Release v1.0.0](https://github.com/ramanujaganesh26/Wind_Energy_Monitoring/releases/tag/v1.0.0)**
+- **[Download Source Code Archive (.zip)](https://github.com/ramanujaganesh26/Wind_Energy_Monitoring/releases/download/v1.0.0/New_Windmill_Unit_Software_v1.0.0_SourceCode.zip)**
+- **[View All Tags](https://github.com/ramanujaganesh26/Wind_Energy_Monitoring/tags)**
 
 ---
 
-## 🌟 Key System Capabilities
+## Key System Capabilities
 
 | Feature Component | Description & Visual Highlight |
 | :--- | :--- |
@@ -40,18 +47,18 @@
 
 ---
 
-## ⌨️ Control & Interaction Matrix
+## Control & Interaction Matrix
 
 | Input | Action |
 | :--- | :--- |
 | `F11` | Toggle Full-Screen Borderless Mode |
 | `Esc` | Exit Full-Screen Mode |
-| `Click` on Hub Switcher | Toggle active turbine telemetry (`Turbine #1` ➔ `#2` ➔ `#3`) |
+| `Click` on Hub Switcher | Toggle active turbine telemetry (`Turbine #1` -> `#2` -> `#3`) |
 | `Hover` on Cards | Highlight glass borders & elevate visual depth |
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ```
 Wind_Energy_Monitoring/
@@ -59,7 +66,10 @@ Wind_Energy_Monitoring/
 ├── main.cpp                      # C++ entry point & QQmlApplicationEngine
 ├── Main.qml                      # Root edge-to-edge QML ApplicationWindow
 ├── assets/
-│   └── wind_turbine_bg.png       # High-res atmospheric turbine photo asset
+│   ├── wind_turbine_bg.png       # High-res atmospheric turbine photo asset
+│   └── IMG/
+│       ├── software_preview.png  # Interface screenshot preview
+│       └── Software_gif.mp4      # System demonstration video clip
 ├── components/
 │   ├── StatusPanel.qml           # Translucent status card with pulsing Active pill
 │   ├── WindEnergyPanel.qml       # Animated wind spectrum equalizer card
@@ -74,7 +84,7 @@ Wind_Energy_Monitoring/
 
 ---
 
-## 🛠️ Build & Installation Guide
+## Build & Installation Guide
 
 ### System Prerequisites
 - **Qt SDK**: Qt 6.8.0 or higher (Qt Quick, Qt Quick Controls 2)
@@ -103,11 +113,3 @@ Wind_Energy_Monitoring/
    ```bash
    ./build/Release/appWindEnergyMonitoring_Dashboard.exe
    ```
-
----
-
-## 📄 License & Credits
-
-Distributed under the **MIT License**. See `LICENSE` for details.
-
-Developed with ❤️ by **[work-with-ram](https://github.com/work-with-ram)**.
