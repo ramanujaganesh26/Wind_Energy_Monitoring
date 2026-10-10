@@ -1,0 +1,21 @@
+# Extra media assets
+assets/IMG/
+*.mp4
+*.avi
+*.mov
+
+# Build & IDE directories
+build/
+.qtcreator/
+*.user
+*.user.*
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.vcxproj*
+*.sln
+
+# OS metadata
+.DS_Store
+Thumbs.db
